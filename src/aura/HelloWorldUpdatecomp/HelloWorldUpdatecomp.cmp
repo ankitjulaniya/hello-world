@@ -1,0 +1,6 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader" controller="HelloWorldTry">
+	 <aura:attribute name="customerName" type="String" default="Test"/>
+ <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    Hello, {!v.customerName} 
+</aura:component>
